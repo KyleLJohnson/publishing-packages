@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: install -g npm@3-latest
+      - run: install -g npm@3
       - run: npm ci
       - run: npm publish
         env:
